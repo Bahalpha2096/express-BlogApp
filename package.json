@@ -1,0 +1,23 @@
+{
+  "name": "express-blogapp",
+  "version": "1.0.0",
+  "description": "Buiding a bogPostApp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bahalpha2096/express-BlogApp.git"
+  },
+  "author": "Alpha Bah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bahalpha2096/express-BlogApp/issues"
+  },
+  "homepage": "https://github.com/Bahalpha2096/express-BlogApp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
