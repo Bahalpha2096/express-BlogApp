@@ -14,3 +14,11 @@ GET  http://localhost:3000/api/users HTTP/1.1
 ### getting request for all the blog users
 
 GET https://jsonplaceholder.typicode.com/users/8 HTTP/1.1
+
+### getting all request from todos
+
+GET  https://jsonplaceholder.typicode.com/users/1/todos HTTP/1.1
+
+### getting request from todos by id
+
+GET https://jsonplaceholder.typicode.com/users/1/todos/8 HTTP/1.1

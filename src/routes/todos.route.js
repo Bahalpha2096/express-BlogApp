@@ -1,9 +1,8 @@
-
 module.exports = app => {
 
     const router = require('express').Router();
 
-    const controller = require("../controllers/blogposts.controller");
+    const controller = require("../controllers/todos.controller");
 
     //getting all blogposts
     router.get('/', controller.findAll);
