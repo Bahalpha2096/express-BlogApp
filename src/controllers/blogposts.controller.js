@@ -2,7 +2,7 @@ const axios = require('axios');
 
 exports.findAll = (req, res) => {
     //call the jsonplacholder API
-    axios.get('https://jsonplaceholder.typicode.com/posts/1/comments')
+    axios.get('https://jsonplaceholder.typicode.com/posts')
         .then(apicall => {
             res.send(apicall.data)
         })

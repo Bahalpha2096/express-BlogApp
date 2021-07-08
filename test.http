@@ -21,4 +21,4 @@ GET  https://jsonplaceholder.typicode.com/users/1/todos HTTP/1.1
 
 ### getting request from todos by id
 
-GET https://jsonplaceholder.typicode.com/users/1/todos/8 HTTP/1.1
+GET https://jsonplaceholder.typicode.com/users/ HTTP/1.1

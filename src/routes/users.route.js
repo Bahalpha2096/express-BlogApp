@@ -1,8 +1,7 @@
-
 module.exports = app => {
     const controller = require('../controllers/users.controller');
 
-    const router = require('express').Router;
+    const router = require('express').Router();
 
     //get all users
     router.get('/', controller.findAll);

@@ -10,7 +10,7 @@ exports.findAll = (req, res) => {
 
 exports.findById = (req, res) => {
     //call the jsonplaceholder API
-    axios.get('https://jsonplaceholder.typicode.com/user/id' + req.params.id)
+    axios.get('https://jsonplaceholder.typicode.com/users/' + req.params.id)
         .then(apicall => {
             res.send(apicall.data)
         })

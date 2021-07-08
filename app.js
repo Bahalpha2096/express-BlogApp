@@ -3,14 +3,6 @@ const express = require(`express`);
 
 const app = express();
 
-app.get(`/`, function(req, res) {
-    res.send(`blogposts.route`)
-})
-
-app.get(`/`, function(req, res) {
-    res.send('todos.route')
-})
-
 
 require('./src/routes/blogposts.route')(app);
 require('./src/routes/users.route')(app);
